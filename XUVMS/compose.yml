@@ -1,7 +1,7 @@
 services:
   mysqldb:
     image: mysql:8.0
-    container_name: "XUVMS_Node1_DB"
+    container_name: "XUVMS_Users_DB"
     env_file:
       - .env
     environment:
